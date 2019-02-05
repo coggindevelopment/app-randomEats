@@ -72,6 +72,9 @@
                                                 <rect key="frame" x="0.0" y="71.5" width="335" height="42"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
                                                 <state key="normal" image="whereToEatBtn-1x"/>
+                                                <connections>
+                                                    <action selector="whereToEatBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BlB-UY-vnT"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -83,11 +86,14 @@
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="0.25430757705479451" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qT2-d0-ymj">
                                                 <rect key="frame" x="0.0" y="42" width="335" height="43"/>
                                                 <state key="normal" image="addRestaurantBtn-1x"/>
+                                                <connections>
+                                                    <action selector="addRestaurantBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lQH-C7-siS"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
