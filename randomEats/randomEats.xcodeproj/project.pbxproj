@@ -12,6 +12,7 @@
 		A3D485DA22085B6600D341DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D485D822085B6600D341DE /* Main.storyboard */; };
 		A3D485DC22085B6700D341DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D485DB22085B6700D341DE /* Assets.xcassets */; };
 		A3D485DF22085B6700D341DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D485DD22085B6700D341DE /* LaunchScreen.storyboard */; };
+		A3D485EA2208AA5700D341DE /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D485E92208AA5700D341DE /* customButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A3D485DB22085B6700D341DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3D485DE22085B6700D341DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3D485E022085B6700D341DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D485E92208AA5700D341DE /* customButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,9 @@
 		A3D485D322085B6600D341DE /* randomEats */ = {
 			isa = PBXGroup;
 			children = (
+				A3D485E82208A9D300D341DE /* Model */,
+				A3D485E72208A9CB00D341DE /* View */,
+				A3D485E62208A9B600D341DE /* Controller */,
 				A3D485D422085B6600D341DE /* AppDelegate.swift */,
 				A3D485D622085B6600D341DE /* ViewController.swift */,
 				A3D485D822085B6600D341DE /* Main.storyboard */,
@@ -62,6 +67,28 @@
 				A3D485E022085B6700D341DE /* Info.plist */,
 			);
 			path = randomEats;
+			sourceTree = "<group>";
+		};
+		A3D485E62208A9B600D341DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A3D485E72208A9CB00D341DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3D485E82208A9D300D341DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3D485E92208AA5700D341DE /* customButton.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +164,7 @@
 			files = (
 				A3D485D722085B6600D341DE /* ViewController.swift in Sources */,
 				A3D485D522085B6600D341DE /* AppDelegate.swift in Sources */,
+				A3D485EA2208AA5700D341DE /* customButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
